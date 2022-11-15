@@ -14,7 +14,12 @@ int main()
 
 {
 
+	float emprestimo, juros;
+	int parcelas;
 
+	cin>>emprestimo>>juros>>parcelas;
+
+	for(int i = 0)
 
 
 

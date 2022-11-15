@@ -1,5 +1,6 @@
 /*
-Divisão dos Gastos
+
+Permutação simples
 
 */
 
@@ -15,11 +16,11 @@ int main()
  
     sort(arr, arr + 3);
  
-    cout << "The 3! possible permutations with 3 elements:\n";
+    cout << "Permutação simples:\n";
     do {
         cout << arr[0] << " " << arr[1] << " " << arr[2] << "\n";
     } while (next_permutation(arr, arr + 3));
  
-    cout << "After loop: " << arr[0] << ' '
+    cout << "Depois do loop: " << arr[0] << ' '
          << arr[1] << ' ' << arr[2] << '\n';
 }
